@@ -12,7 +12,7 @@ int main()
         {
             if(i%j==0)
             {
-                cout << i;
+                cout << i << " is a composite" << endl;
                 break;
             }    
         }

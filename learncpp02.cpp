@@ -23,9 +23,9 @@ int main() {
    }
  
    // Print the results
-   cout << ("The sum of odd numbers is \n", sumOdd);
-   cout << ("The sum of even numbers is \n", sumEven);
-   cout << ("The difference is \n", (sumOdd - sumEven));
+   cout << "The sum of odd numbers is " << sumOdd << endl;
+   cout << "The sum of even numbers is " << sumEven << endl;
+   cout << "The difference is " << sumOdd - sumEven << endl;
  
    return 0;
 }
