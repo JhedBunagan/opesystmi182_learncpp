@@ -8,8 +8,8 @@ int main() {
    int upperbound;  // Sum from 1 to this upperbound
  
    // Prompt user for an upperbound
-   printf("Enter the upperbound: ");
-   scanf("%d", &upperbound);   // Use %d to read an int
+   cout << "Enter the upperbound: " << endl;
+   cin >> upperbound;  
  
    // Use a loop to repeatedly add 1, 2, 3,..., up to upperbound
    int number = 1;
@@ -23,9 +23,9 @@ int main() {
    }
  
    // Print the results
-   printf("The sum of odd numbers is %d.\n", sumOdd);
-   printf("The sum of even numbers is %d.\n", sumEven);
-   printf("The difference is %d.\n", (sumOdd - sumEven));
+   cout << ("The sum of odd numbers is \n", sumOdd);
+   cout << ("The sum of even numbers is \n", sumEven);
+   cout << ("The difference is \n", (sumOdd - sumEven));
  
    return 0;
 }

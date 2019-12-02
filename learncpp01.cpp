@@ -1,7 +1,6 @@
 /*
  * Prompt user for the radius of a circle and compute its area and circumference
- * (CircleComputation.c
- add something)
+ * (CircleComputation.c)
  */
 #include <iostream>
 using namespace std;
